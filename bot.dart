@@ -11,7 +11,9 @@ main() {
   bot.on('message', (e) { //e is telling the event
     var m = e.message; //You can change the m to msg or message or whatever you like.
     //Don't do something big.
-
+    print("User: " + msg.author.username + " Guild Name: " + msg.guild.name + " Message: " + msg.content);
+    //Logging system.
+    
     if (m.content.startsWith((prefix + "ping") {
       m.channel.sendMessage("Pong!");
     }
