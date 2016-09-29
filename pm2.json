@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name": "DartBot",
+    "script": "./bot.dart",
+    "exec_interpreter": "dart",
+    "exec_mode": "fork_mode",
+    "watch": true
+  }]
+}
